@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Dashboard</title>
+  <title>Admin</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -43,11 +43,11 @@
 
   <header class="main-header">
     <!-- Logo -->
-    <a href="index2.html" class="logo">
+    <a href="index.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Admin</b>LTE</span>
+      <span class="logo-lg"><b>Admin</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
@@ -72,7 +72,7 @@
                   <li><!-- start message -->
                     <a href="#">
                       <div class="pull-left">
-                        <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                        <img src="http://paradipport.gov.in/Admin/images/login.png" class="img-circle" alt="User Image">
                       </div>
                       <h4>
                         Support Team
@@ -258,16 +258,16 @@
           <!-- User Account: style can be found in dropdown.less -->
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-              <span class="hidden-xs">Alexander Pierce</span>
+              <img src="http://paradipport.gov.in/Admin/images/login.png" class="user-image" alt="User Image">
+              <span class="hidden-xs">Admin</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                <img src="http://paradipport.gov.in/Admin/images/login.png" class="img-circle" alt="User Image">
 
                 <p>
-                  Alexander Pierce - Web Developer
+                  Admin - Web Developer
                   <small>Member since Nov. 2012</small>
                 </p>
               </li>
@@ -312,15 +312,15 @@
       <!-- Sidebar user panel -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+          <img src="http://paradipport.gov.in/Admin/images/login.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Alexander Pierce</p>
+          <p>Admin</p>
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
       <!-- search form -->
-      <form action="#" method="get" class="sidebar-form">
+      <!-- <form action="#" method="get" class="sidebar-form">
         <div class="input-group">
           <input type="text" name="q" class="form-control" placeholder="Search...">
           <span class="input-group-btn">
@@ -328,14 +328,20 @@
                 </button>
               </span>
         </div>
-      </form>
+      </form> -->
       <!-- /.search form -->
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
-        <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
-        <li class="active"><a href="pages/tables/user.html"><i class="fa fa-circle-o"></i> User </a></li>
-        <li class="active"><a href="pages/tables/trip.html"><i class="fa fa-circle-o"></i> Trip </a></li>
+        <li class="active"><a href="index.html">
+          <!-- <i class="fa fa-circle-o"></i> -->
+           Dashboard</a></li>
+        <li class="active"><a href="pages/tables/user.html">
+          <!-- <i class="fa fa-circle-o"></i> -->
+           User </a></li>
+        <li class="active"><a href="pages/tables/trip.html">
+          <!-- <i class="fa fa-circle-o"></i> -->
+           Trip </a></li>
         <!-- <li class="active"><a href="index.html"><i class="fa fa-circle-o"></i> Trip </a></li> -->
         <!-- <li class="active treeview">
           <a href="#">
@@ -516,29 +522,302 @@
     <section class="content-header">
       <h1>
         Dashboard
-        <small>Control panel</small>
+        <!-- <small>Control panel</small> -->
       </h1>
-      <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+      <!-- <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i>Home</a></li>
         <li class="active">Dashboard</li>
-      </ol>
+      </ol> -->
     </section>
 
     <!-- Main content -->
     <section class="content">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="box">
+            <div class="box-header">
+              <h3 class="box-title">Users</h3>
+            </div>
       <!-- Small boxes (Stat box) -->
+      <table id="example1" class="table table-bordered table-striped">
+        <thead>
+        <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>Join Date</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>11</td>
+          <td>aaa</td>
+          <td>aaa@gmail.com</td>
+          <td>1234567890</td>
+          <td>15/08/2018</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>bbb</td>
+          <td>bbb@gmail.com</td>
+          <td>1234567890</td>
+          <td>15/08/2018</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>ccc</td>
+          <td>ccc@gmail.com</td>
+          <td>1234567890</td>
+          <td>15/08/2018</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>ddd</td>
+          <td>ddd@gmail.com</td>
+          <td>1234567890</td>
+          <td>15/08/2018</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>eee</td>
+          <td>eee@gmail.com</td>
+          <td>1234567890</td>
+          <td>15/08/2018</td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>fff</td>
+          <td>fff@gmail.com</td>
+          <td>1234567890</td>
+          <td>15/08/2018</td>
+        </tr>
+        <tr>
+          <td>17</td>
+          <td>ggg</td>
+          <td>ggg@gmail.com</td>
+          <td>1234567890</td>
+          <td>15/08/2018</td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td>hhh</td>
+          <td>hhh@gmail.com</td>
+          <td>1234567890</td>
+          <td>15/08/2018</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>iii</td>
+          <td>iii@gmail.com</td>
+          <td>1234567890</td>
+          <td>15/08/2018</td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td>jjj</td>
+          <td>jjj@gmail.com</td>
+          <td>1234567890</td>
+          <td>15/08/2018</td>
+        </tr>
+        <tr>
+          <td>21</td>
+          <td>kkk</td>
+          <td>kkk@gmail.com</td>
+          <td>1234567890</td>
+          <td>15/08/2018</td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>lll</td>
+          <td>lll@gmail.com</td>
+          <td>1234567890</td>
+          <td>15/08/2018</td>
+        </tr>
+        <tr>
+          <td>23</td>
+          <td>mmm</td>
+          <td>mmm@gmail.com</td>
+          <td>1234567890</td>
+          <td>15/08/2018</td>
+        </tr>
+        </tbody>
+        <!-- <tfoot>
+        <tr>
+          <th>Rendering engine</th>
+          <th>Browser</th>
+          <th>Platform(s)</th>
+          <th>Engine version</th>
+          <th>CSS grade</th>
+        </tr>
+        </tfoot> -->
+      </table>
+    </div>
 
+
+    <div class="box">
+      <div class="box-header">
+        <h3 class="box-title">Trips</h3>
+      </div>
+
+      <table id="example1" class="table table-bordered table-striped">
+        <thead>
+        <tr>
+          <th>Id</th>
+          <th>Date</th>
+          <th>From</th>
+          <th>To</th>
+          <th>Amount</th>
+          <th>Driver</th>
+          <th>Driver Status</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>11</td>
+          <td>15/08/2018</td>
+          <td>Location1</td>
+          <td>Location2</td>
+          <td>123</td>
+          <td>Driver Name</td>
+          <td>Accepted</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>15/08/2018</td>
+          <td>Location1</td>
+          <td>Location2</td>
+          <td>123</td>
+          <td>Driver Name</td>
+          <td>Accepted</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>15/08/2018</td>
+          <td>Location1</td>
+          <td>Location2</td>
+          <td>123</td>
+          <td>Driver Name</td>
+          <td>Accepted</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>15/08/2018</td>
+          <td>Location1</td>
+          <td>Location2</td>
+          <td>123</td>
+          <td>Driver Name</td>
+          <td>Accepted</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>15/08/2018</td>
+          <td>Location1</td>
+          <td>Location2</td>
+          <td>123</td>
+          <td>Driver Name</td>
+          <td>Accepted</td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>15/08/2018</td>
+          <td>Location1</td>
+          <td>Location2</td>
+          <td>123</td>
+          <td>Driver Name</td>
+          <td>Accepted</td>
+        </tr>
+        <tr>
+          <td>17</td>
+          <td>15/08/2018</td>
+          <td>Location1</td>
+          <td>Location2</td>
+          <td>123</td>
+          <td>Driver Name</td>
+          <td>Accepted</td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td>15/08/2018</td>
+          <td>Location1</td>
+          <td>Location2</td>
+          <td>123</td>
+          <td>Driver Name</td>
+          <td>Accepted</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>15/08/2018</td>
+          <td>Location1</td>
+          <td>Location2</td>
+          <td>123</td>
+          <td>Driver Name</td>
+          <td>Accepted</td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td>15/08/2018</td>
+          <td>Location1</td>
+          <td>Location2</td>
+          <td>123</td>
+          <td>Driver Name</td>
+          <td>Accepted</td>
+        </tr>
+        <tr>
+          <td>21</td>
+          <td>15/08/2018</td>
+          <td>Location1</td>
+          <td>Location2</td>
+          <td>123</td>
+          <td>Driver Name</td>
+          <td>Accepted</td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>15/08/2018</td>
+          <td>Location1</td>
+          <td>Location2</td>
+          <td>123</td>
+          <td>Driver Name</td>
+          <td>Accepted</td>
+        </tr>
+        <tr>
+          <td>23</td>
+          <td>15/08/2018</td>
+          <td>Location1</td>
+          <td>Location2</td>
+          <td>123</td>
+          <td>Driver Name</td>
+          <td>Accepted</td>
+        </tr>
+        </tbody>
+        <!-- <tfoot>
+        <tr>
+          <th>Rendering engine</th>
+          <th>Browser</th>
+          <th>Platform(s)</th>
+          <th>Engine version</th>
+          <th>CSS grade</th>
+        </tr>
+        </tfoot> -->
+      </table>
+    </div>
+
+
+
+  </div>
+    </div>
     </section>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-  <footer class="main-footer">
+  <!-- <footer class="main-footer">
     <div class="pull-right hidden-xs">
       <b>Version</b> 2.4.0
     </div>
     <strong>Copyright &copy; 2014-2016 <a href="https://adminlte.io">Almsaeed Studio</a>.</strong> All rights
     reserved.
-  </footer>
+  </footer> -->
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
